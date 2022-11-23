@@ -26,12 +26,13 @@ During the study of repeated solutions, many tools were found that solve Recaptc
 after run.py it's ready to go -> python3 /app/solver/main.py --socks {optional, your socks} --links {optional, links to webpage with Google RecaptchaV2, default test link}</pre>
 
 ### Without Docker
+<pre>
 1. mkdir recaptcha_v2_solver 
 2. cd recaptcha_v2_solver 
 3. git clone https://github.com/Artistrazh/recaptcha_v2_solver
 4. pip install -r requirements.text
 5. python3 /app/src/run.py --device {cuda or cpu, default cuda}  
-after run.py it's ready to go -> python3 /app/solver/main.py --socks {optional, your socks} --links {optional, links to webpage with Google RecaptchaV2, default test link} 
+after run.py it's ready to go -> python3 /app/solver/main.py --socks {optional, your socks} --links {optional, links to webpage with Google RecaptchaV2, default test link}</pre>
 
 ## What's under the hood?
 *   Modern BLIP language model for text image subscription - [Article](https://arxiv.org/abs/2201.12086), [GitHub](https://github.com/salesforce/BLIP);
