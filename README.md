@@ -35,8 +35,9 @@ $ python3 /app/src/run.py --device {cuda or cpu, default cuda}
 after run.py it's ready to go -> python3 /app/solver/main.py --socks {optional, your socks} --links {optional, links to webpage with Google RecaptchaV2, default test link}</pre>
 
 ### With virtual environment
+<pre>
 Soon...\
-![](https://geps.dev/progress/10)
+![](https://geps.dev/progress/85)</pre>
 
 ## What's under the hood?
 *   Modern BLIP language model for text image subscription - [`Article`](https://arxiv.org/abs/2201.12086), [`GitHub`](https://github.com/salesforce/BLIP);
