@@ -34,6 +34,10 @@ $ pip install -r requirements.text
 $ python3 /app/src/run.py --device {cuda or cpu, default cuda}  
 after run.py it's ready to go -> python3 /app/solver/main.py --socks {optional, your socks} --links {optional, links to webpage with Google RecaptchaV2, default test link}</pre>
 
+### With Docker
+Soon...
+![](https://geps.dev/progress/10)
+
 ## What's under the hood?
 *   Modern BLIP language model for text image subscription - [`Article`](https://arxiv.org/abs/2201.12086), [`GitHub`](https://github.com/salesforce/BLIP);
 *   YOLOv3 (or optionally YOLOv5) for object detection - [`YOLOv3 article`](https://arxiv.org/abs/1804.02767), [`GitHub YOLOv3`](https://github.com/ultralytics/yolov3), [`GitHub YOLOv5`](https://github.com/ultralytics/yolov5);
