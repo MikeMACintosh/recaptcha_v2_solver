@@ -20,7 +20,7 @@ During the study of repeated solutions, many tools were found that solve Recaptc
 <pre>
 $ mkdir recaptcha_v2_solver
 $ cd recaptcha_v2_solver 
-$ git clone https://github.com/Artistrazh/recaptcha_v2_solver
+$ git clone https://github.com/MikeMACintosh/recaptcha_v2_solver.git
 $ make up
 $ make go or python3 /app/src/run.py --device {cuda or cpu, default cuda}  
 after run.py it's ready to go -> python3 /app/solver/main.py --socks {optional, your socks} --links {optional, links to webpage with Google RecaptchaV2, default test link}</pre>
@@ -29,7 +29,7 @@ after run.py it's ready to go -> python3 /app/solver/main.py --socks {optional, 
 <pre>
 $ mkdir recaptcha_v2_solver 
 $ cd recaptcha_v2_solver 
-$ git clone https://github.com/Artistrazh/recaptcha_v2_solver
+$ git clone https://github.com/MikeMACintosh/recaptcha_v2_solver.git
 $ pip install -r requirements.text
 $ python3 /app/src/run.py --device {cuda or cpu, default cuda}  
 after run.py it's ready to go -> python3 /app/solver/main.py --socks {optional, your socks} --links {optional, links to webpage with Google RecaptchaV2, default test link}</pre>
