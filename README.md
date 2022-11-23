@@ -36,7 +36,7 @@ after run.py it's ready to go -> python3 /app/solver/main.py --socks {optional, 
 
 ### With virtual environment
 Soon...\
-![](https://geps.dev/progress/85)
+![](https://geps.dev/progress/35)
 
 ## What's under the hood?
 *   Modern BLIP language model for text image subscription - [`Article`](https://arxiv.org/abs/2201.12086), [`GitHub`](https://github.com/salesforce/BLIP);
