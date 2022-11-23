@@ -12,13 +12,13 @@
 ## Motivation 
 Recaptcha V2 Solver is a Google Recaptcha V2 automated solution service. Many examples of Recaptcha V2 can be too difficult for a human to solve a captcha problem, it takes from time to time to complete it until the site makes sure that it is a real person. Our service will shift the responsibility for passing the captcha to artificial intelligence, while you drink coffee and use something more important.
 
-During the study of repeated solutions, many tools were found that solve Recaptcha V2 by sound ([one of them](https://github.com/dessant/buster)). Much to my surprise, during the operation, we did not find a single implementation that would solve Recaptcha V2 from pictures. We were presented with an interesting solution for the implementation of Recaptcha, about getting images.
+During the study of repeated solutions, many tools were found that solve Recaptcha V2 by sound ([`one of them`](https://github.com/dessant/buster)). Much to my surprise, during the operation, we did not find a single implementation that would solve Recaptcha V2 from pictures. We were presented with an interesting solution for the implementation of Recaptcha, about getting images.
 
 ## How to use 
 
 ### With Docker
 <pre>
-1. mkdir recaptcha_v2_solver
+$ mkdir recaptcha_v2_solver
 2. cd recaptcha_v2_solver 
 3. git clone https://github.com/Artistrazh/recaptcha_v2_solver
 4. make up
@@ -36,8 +36,8 @@ after run.py it's ready to go -> python3 /app/solver/main.py --socks {optional, 
 
 ## What's under the hood?
 *   Modern BLIP language model for text image subscription - [`Article`](https://arxiv.org/abs/2201.12086), [`GitHub`](https://github.com/salesforce/BLIP);
-*   YOLOv3 (or optionally YOLOv5) for object detection - [`YOLOv3 article`](https://arxiv.org/abs/1804.02767), [`GitHub YOLOv3`](https://github.com/ultralytics/yolov3), [GitHub YOLOv5](https://github.com/ultralytics/yolov5);
-*   YOLOv3 trained on a manually assembled and labeled dataset. This model detects categories that are missing in the YOLO implementation trained on MS COCO. In addition, it detects categories where BLIP does not perform well. This [dataset](https://github.com/brian-the-dev/recaptcha-dataset) was taken as the basis for training my model. The model was trained on just over 512 labeled images in three categories: crosswalk, chimney, and stairs. Some of the images were collected from Google Images and also marked up.
+*   YOLOv3 (or optionally YOLOv5) for object detection - [`YOLOv3 article`](https://arxiv.org/abs/1804.02767), [`GitHub YOLOv3`](https://github.com/ultralytics/yolov3), [`GitHub YOLOv5`](https://github.com/ultralytics/yolov5);
+*   YOLOv3 trained on a manually assembled and labeled dataset. This model detects categories that are missing in the YOLO implementation trained on MS COCO. In addition, it detects categories where BLIP does not perform well. This [`dataset`](https://github.com/brian-the-dev/recaptcha-dataset) was taken as the basis for training my model. The model was trained on just over 512 labeled images in three categories: crosswalk, chimney, and stairs. Some of the images were collected from Google Images and also marked up.
 The weights of the trained model and the labeled dataset will be posted.
 
 ## Results 
@@ -60,4 +60,4 @@ but it didn't work good so we had to hardcode it.
 Our solution requires about 4.5 GB GPU RAM for normal operation.
 
 ## Reference
-While searching for existing solutions, [article](https://arxiv.org/pdf/2104.03366.pdf) was found on the subject of our work. This work allowed us to better understand how Google Recaptcha V2 works and to take into account some points when working on our project.
+While searching for existing solutions, [`article`](https://arxiv.org/pdf/2104.03366.pdf) was found on the subject of our work. This work allowed us to better understand how Google Recaptcha V2 works and to take into account some points when working on our project.
