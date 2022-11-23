@@ -4,7 +4,7 @@
 </div>
 
 <div class="solver" align="center">
-	<img src="https://github.com/Artistrazh/recaptcha_v2_solver/blob/main/solver.gif">
+	<img src="https://github.com/Artistrazh/recaptcha_v2_solver/blob/main/final.gif">
 	<figcaption>10x speed times</figcaption>
 </div>
 
