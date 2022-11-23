@@ -19,19 +19,19 @@ During the study of repeated solutions, many tools were found that solve Recaptc
 ### With Docker
 <pre>
 $ mkdir recaptcha_v2_solver
-2. cd recaptcha_v2_solver 
-3. git clone https://github.com/Artistrazh/recaptcha_v2_solver
-4. make up
-5. make go or python3 /app/src/run.py --device {cuda or cpu, default cuda}  
+$ cd recaptcha_v2_solver 
+$ git clone https://github.com/Artistrazh/recaptcha_v2_solver
+$ make up
+$ make go or python3 /app/src/run.py --device {cuda or cpu, default cuda}  
 after run.py it's ready to go -> python3 /app/solver/main.py --socks {optional, your socks} --links {optional, links to webpage with Google RecaptchaV2, default test link}</pre>
 
 ### Without Docker
 <pre>
-1. mkdir recaptcha_v2_solver 
-2. cd recaptcha_v2_solver 
-3. git clone https://github.com/Artistrazh/recaptcha_v2_solver
-4. pip install -r requirements.text
-5. python3 /app/src/run.py --device {cuda or cpu, default cuda}  
+# mkdir recaptcha_v2_solver 
+# cd recaptcha_v2_solver 
+# git clone https://github.com/Artistrazh/recaptcha_v2_solver
+# pip install -r requirements.text
+# python3 /app/src/run.py --device {cuda or cpu, default cuda}  
 after run.py it's ready to go -> python3 /app/solver/main.py --socks {optional, your socks} --links {optional, links to webpage with Google RecaptchaV2, default test link}</pre>
 
 ## What's under the hood?
