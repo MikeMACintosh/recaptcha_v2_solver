@@ -17,12 +17,13 @@ During the study of repeated solutions, many tools were found that solve Recaptc
 ## How to use 
 
 ### With Docker
+<pre>
 1. mkdir recaptcha_v2_solver
 2. cd recaptcha_v2_solver 
 3. git clone https://github.com/Artistrazh/recaptcha_v2_solver
 4. make up
 5. make go or python3 /app/src/run.py --device {cuda or cpu, default cuda}  
-after run.py it's ready to go -> python3 /app/solver/main.py --socks {optional, your socks} --links {optional, links to webpage with Google RecaptchaV2, default test link} 
+after run.py it's ready to go -> python3 /app/solver/main.py --socks {optional, your socks} --links {optional, links to webpage with Google RecaptchaV2, default test link}</pre>
 
 ### Without Docker
 1. mkdir recaptcha_v2_solver 
