@@ -35,7 +35,7 @@ after run.py it's ready to go -> python3 /app/solver/main.py --socks {optional, 
 after run.py it's ready to go -> python3 /app/solver/main.py --socks {optional, your socks} --links {optional, links to webpage with Google RecaptchaV2, default test link}</pre>
 
 ## What's under the hood?
-*   Modern BLIP language model for text image subscription - [Article](https://arxiv.org/abs/2201.12086), [GitHub](https://github.com/salesforce/BLIP);
+*   Modern BLIP language model for text image subscription - [[`Article`](https://arxiv.org/abs/2201.12086), [GitHub](https://github.com/salesforce/BLIP)];
 *   YOLOv3 (or optionally YOLOv5) for object detection - [YOLOv3 article](https://arxiv.org/abs/1804.02767), [GitHub YOLOv3](https://github.com/ultralytics/yolov3), [GitHub YOLOv5](https://github.com/ultralytics/yolov5);
 *   YOLOv3 trained on a manually assembled and labeled dataset. This model detects categories that are missing in the YOLO implementation trained on MS COCO. In addition, it detects categories where BLIP does not perform well. This [dataset](https://github.com/brian-the-dev/recaptcha-dataset) was taken as the basis for training my model. The model was trained on just over 512 labeled images in three categories: crosswalk, chimney, and stairs. Some of the images were collected from Google Images and also marked up.
 The weights of the trained model and the labeled dataset will be posted.
