@@ -1,36 +1,17 @@
 version: "3.8"
 services:
-  captcha_service:
+  recaptchav2_solver:
     build: .
     ipc: "host"
     restart: always
-    container_name: captcha_service
-    ports:
-      - "11013:11013"
+    network_mode: host
     volumes:
       - .:/app
-      - images:/images
-      - cache:/root/.cache
-    deploy:
-      resources:
-        reservations:
-          devices:
-            - capabilities:
-                - gpu
+      - "/etc/timezone:/etc/timezone:ro"
+      - "/etc/localtime:/etc/localtime:ro"
     environment:
       - VERSION=latest
-      - NVIDIA_VISIBLE_DEVICES=0
+      - NVIDIA_VISIBLE_DEVICES=all
       - NVIDIA_DRIVER_CAPABILITIE=all
-    entrypoint: tail -f "/dev/null"
 
-volumes:
-  cache:
-    external: true
-  images:
-    driver: local
-    driver_opts:
-      device: :/volume1/images
-      o: addr=0.0.0.0,rw,noac,vers=4
-      type: nfs
-
-     
+    entrypoint: tail -f /bin/bash
