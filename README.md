@@ -19,20 +19,20 @@ During the study of repeated solutions, many tools were found that solve Recaptc
 
 ### With Docker
 <pre>
-$ mkdir recaptcha_v2_solver
-$ cd recaptcha_v2_solver 
-$ git clone https://github.com/MikeMACintosh/recaptcha_v2_solver
-$ make up
-$ make go or python3 /app/src/run.py --device {cuda or cpu, default cuda}  
+ mkdir recaptcha_v2_solver
+ cd recaptcha_v2_solver 
+ git clone https://github.com/MikeMACintosh/recaptcha_v2_solver
+ make up
+ make go or python3 /app/src/run.py --device {cuda or cpu, default cuda}  
 after run.py it's ready to go -> python3 /app/solver/main.py --socks {optional, your socks} --links {optional, links to webpage with Google RecaptchaV2, default test link}</pre>
 
 ### Without Docker
 <pre>
-$ mkdir recaptcha_v2_solver 
-$ cd recaptcha_v2_solver 
-$ git clone https://github.com/MikeMACintosh/recaptcha_v2_solver
-$ pip install -r requirements.text
-$ python3 /app/src/run.py --device {cuda or cpu, default cuda}  
+ mkdir recaptcha_v2_solver 
+ cd recaptcha_v2_solver 
+ git clone https://github.com/MikeMACintosh/recaptcha_v2_solver
+ pip install -r requirements.text
+ python3 /app/src/run.py --device {cuda or cpu, default cuda}  
 after run.py it's ready to go -> python3 /app/solver/main.py --socks {optional, your socks} --links {optional, links to webpage with Google RecaptchaV2, default test link}</pre>
 
 ### With virtual environment
