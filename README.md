@@ -5,10 +5,10 @@
 
 <div class="solver" align="center">
 	<img src="https://user-images.githubusercontent.com/85686842/203734676-06d2178a-bc7a-4253-8cf7-870a9cf779ee.gif">
-	
 </div>
-
-
+<div class="solver" align="center">
+	<figcaption>10x speed times</figcaption>
+</div>
 
 ## Motivation 
 Recaptcha V2 Solver is a Google Recaptcha V2 automated solution service. Many examples of Recaptcha V2 can be too difficult for a human to solve a captcha problem, it takes from time to time to complete it until the site makes sure that it is a real person. Our service will shift the responsibility for passing the captcha to artificial intelligence, while you drink coffee and use something more important.
