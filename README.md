@@ -4,10 +4,10 @@
 </div>
 
 <div class="solver" align="center">
-	<img src="https://github.com/Artistrazh/recaptcha_v2_solver/blob/main/final.gif">
+	<img src="https://user-images.githubusercontent.com/85686842/203734676-06d2178a-bc7a-4253-8cf7-870a9cf779ee.gif">
 	<figcaption>10x speed times</figcaption>
 </div>
-![final](https://user-images.githubusercontent.com/85686842/203734676-06d2178a-bc7a-4253-8cf7-870a9cf779ee.gif)
+
 
 
 ## Motivation 
