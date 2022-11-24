@@ -1,6 +1,6 @@
 <div class="recaptcha" align="center">
 <h1>Recaptcha V2 Solver</h1>
-<p>🚀 Gracefully face Recaptcha V2 challenge. Google Recaptcha V2 automated solution service.</p>
+<p>🚀 Gracefully face Recaptcha V2 challenge. Google Recaptcha V2 automated solution service</p>
 </div>
 
 <div class="solver" align="center">
